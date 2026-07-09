@@ -195,3 +195,10 @@ Computer Science student, COMSATS University Islamabad (Wah Campus) · CloudExif
 ## License
 
 This project is shared for personal portfolio and internship-review purposes. Feel free to reference the structure or techniques, but please don't republish the content (name, photos, resume, copy) as your own.
+## Screenshots
+
+### Desktop
+![Desktop Screenshot](screenshots/desktop-home.png)
+
+### Mobile
+![Mobile Screenshot](screenshots/mobile-home.png)
