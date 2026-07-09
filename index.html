@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yawar Mushtaq — Full Stack Web Developer</title>
+  <meta name="description" content="Yawar Mushtaq is a Computer Science student and Full Stack Web Developer building clean, modern, real-world applications. CloudExify Web Development Intern.">
+  <meta name="theme-color" content="#08090C">
+
+  <!-- Canonical — update to your live domain after deploying -->
+  <link rel="canonical" href="https://your-domain.vercel.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yawar Mushtaq — Full Stack Web Developer">
+  <meta property="og:description" content="Computer Science student and developer building clean, modern, real-world web and mobile applications.">
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <meta property="og:url" content="https://your-domain.vercel.app/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Yawar Mushtaq — Full Stack Web Developer">
+  <meta name="twitter:description" content="Computer Science student and developer building clean, modern, real-world web and mobile applications.">
+  <meta name="twitter:image" content="assets/images/og-cover.png">
+
+  <!-- Favicons & App Icons -->
+  <link rel="icon" href="assets/icons/favicon.ico?v=2">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg?v=2">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="site.webmanifest?v=2">
+  <meta name="msapplication-TileColor" content="#08090C">
+  <meta name="msapplication-config" content="browserconfig.xml">
+
+  <!-- Structured data: Person schema for richer search results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yawar Mushtaq",
+    "jobTitle": "Full Stack Web Developer",
+    "description": "Computer Science student and full stack web developer building clean, modern, real-world web and mobile applications.",
+    "url": "https://your-domain.vercel.app/",
+    "image": "https://your-domain.vercel.app/assets/images/og-cover.png",
+    "sameAs": [
+      "https://github.com/yawarmushtaq33",
+      "https://www.linkedin.com/in/yawar-mushtaq-2865573a6",
+      "https://instagram.com/yawar_mushtaq33"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Icon sprite: each icon is defined once here and referenced via <use> everywhere else -->
+  <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute; width:0; height:0; overflow:hidden" aria-hidden="true">
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.84.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-.98 1.82-2 3.75-2 4 0 4.74 2.5 4.74 5.76V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.44-2.16 2.96V21h-4V9Z"/></symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm4.75-3.25a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></symbol>
+    <symbol id="icon-email" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2 8 5 8-5"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z"/></symbol>
+  </svg>
+
+  <!-- Reactive background lighting (signature element) -->
+  <div class="bg-spotlight" aria-hidden="true">
+    <div class="blob blob--one"></div>
+    <div class="blob blob--two"></div>
+    <div class="blob blob--three"></div>
+  </div>
+
+  <!-- Page load animation -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <span class="preloader__mark">YM</span>
+    <span class="preloader__bar"><span class="preloader__bar-fill"></span></span>
+  </div>
+
+  <!-- Scroll progress indicator -->
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav-wrapper">
+    <nav class="nav glass" aria-label="Primary">
+      <a href="#home" class="nav__logo">YM<span class="nav__logo-dot">.</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#home" class="nav__link" data-nav>Home</a></li>
+        <li><a href="#about" class="nav__link" data-nav>About</a></li>
+        <li><a href="#skills" class="nav__link" data-nav>Skills</a></li>
+        <li><a href="#projects" class="nav__link" data-nav>Projects</a></li>
+        <li><a href="#experience" class="nav__link" data-nav>Experience</a></li>
+        <li><a href="#contact" class="nav__link" data-nav>Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" aria-pressed="false">
+        <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"></path></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">// full stack web developer</p>
+          <h1 class="hero__title">Yawar Mushtaq</h1>
+          <p class="hero__typewriter">
+            <span id="typewriter" aria-live="polite"></span><span class="cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="hero__lede">
+            CS student at COMSATS University building clean, real-world web and mobile applications —
+            currently a Web Development Intern at CloudExify.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Contact Me</a>
+            <a href="assets/resume/Yawar_Mushtaq_Resume.pdf" class="btn btn--link" download>Download Resume ↓</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="status-card glass">
+            <p class="status-card__badge">
+              <span class="status-card__dot" aria-hidden="true"></span>
+              Open to internship opportunities
+            </p>
+            <p class="status-card__row"><span>Program</span><span>BS Computer Science</span></p>
+            <p class="status-card__row"><span>Location</span><span>Faisalabad, PK</span></p>
+            <p class="status-card__row"><span>Currently</span><span>CloudExify Intern</span></p>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">01 — About</p>
+        <h2 class="section-title reveal">A developer who likes solving real problems.</h2>
+
+        <div class="about__grid">
+          <p class="about__text reveal">
+            I'm a Computer Science student at COMSATS University, currently in my 5th semester,
+            with a genuine passion for web development and software engineering. I care about writing
+            code that's clean and maintainable, not just code that works.
+          </p>
+          <p class="about__text reveal">
+            I'm a continuous learner and a hands-on problem solver — from building an Android app
+            end-to-end to designing this very portfolio. I'm currently a
+            <strong>Web Development Intern at CloudExify</strong>, applying what I study in the
+            classroom to real, shipped projects.
+          </p>
+
+          <ul class="about__tags reveal" aria-label="Core traits">
+            <li class="tag">Computer Science Student</li>
+            <li class="tag">Problem Solver</li>
+            <li class="tag">Continuous Learner</li>
+            <li class="tag">CloudExify Intern</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="container skills__grid">
+        <div class="skills__intro reveal">
+          <p class="section-eyebrow">02 — Skills</p>
+          <h2 class="section-title">Tools I work with.</h2>
+          <p class="section-text">
+            A foundation in core web technologies, backed by version control discipline and a habit
+            of collaborating well with a team.
+          </p>
+          <ul class="chip-row" aria-label="Additional technologies">
+            <li class="chip">Android · Java/Kotlin</li>
+            <li class="chip">C++</li>
+            <li class="chip">Python</li>
+            <li class="chip">Bootstrap</li>
+          </ul>
+        </div>
+
+        <ul class="skill-list" aria-label="Skill proficiency">
+          <li class="skill-bar reveal" data-level="90">
+            <div class="skill-bar__head"><span>HTML5</span><span class="skill-bar__pct">90%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="85">
+            <div class="skill-bar__head"><span>CSS3</span><span class="skill-bar__pct">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="70">
+            <div class="skill-bar__head"><span>JavaScript</span><span class="skill-bar__pct">70%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="75">
+            <div class="skill-bar__head"><span>Git</span><span class="skill-bar__pct">75%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="78">
+            <div class="skill-bar__head"><span>GitHub</span><span class="skill-bar__pct">78%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="88">
+            <div class="skill-bar__head"><span>Responsive Design</span><span class="skill-bar__pct">88%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="92">
+            <div class="skill-bar__head"><span>Problem Solving</span><span class="skill-bar__pct">92%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+          <li class="skill-bar reveal" data-level="80">
+            <div class="skill-bar__head"><span>Team Collaboration</span><span class="skill-bar__pct">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">03 — Projects</p>
+        <h2 class="section-title reveal">Things I've built.</h2>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects by category">
+          <button class="filter-pill is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-pill" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-pill" data-filter="mobile" aria-pressed="false">Mobile</button>
+          <button class="filter-pill" data-filter="featured" aria-pressed="false">Featured</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid">
+
+          <article class="project-card glass reveal" data-category="web featured">
+            <div class="project-card__body">
+              <span class="project-card__badge">Featured</span>
+              <h3 class="project-card__title">CScoutPro</h3>
+              <p class="project-card__desc">
+                A modern web application demonstrating clean UI, practical front-end development,
+                and real-world software engineering practices.
+              </p>
+              <ul class="tag-row" aria-label="Technologies used">
+                <li class="tag-row__item">HTML</li>
+                <li class="tag-row__item">CSS</li>
+                <li class="tag-row__item">JavaScript</li>
+              </ul>
+            </div>
+            <div class="project-card__actions">
+              <span class="btn btn--sm btn--ghost btn--disabled" aria-disabled="true">Coming Soon</span>
+              <a href="https://github.com/yawarmushtaq33" class="btn btn--sm btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="mobile featured">
+            <div class="project-card__body">
+              <span class="project-card__badge">Featured</span>
+              <h3 class="project-card__title">CScoutPro Mobile — Football Scouting App</h3>
+              <p class="project-card__desc">
+                A full Android application for football player scouting, stats tracking, and
+                performance evaluation, published and shared as a working end-to-end app.
+              </p>
+              <ul class="tag-row" aria-label="Technologies used">
+                <li class="tag-row__item">Java/Kotlin</li>
+                <li class="tag-row__item">Android Studio</li>
+                <li class="tag-row__item">XML Layouts</li>
+              </ul>
+            </div>
+            <div class="project-card__actions">
+              <span class="btn btn--sm btn--ghost btn--disabled" aria-disabled="true">Coming Soon</span>
+              <a href="https://github.com/yawarmushtaq33" class="btn btn--sm btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal" data-category="web">
+            <div class="project-card__body">
+              <h3 class="project-card__title">Portfolio Website</h3>
+              <p class="project-card__desc">
+                Personal portfolio built for the CloudExify Internship, featuring a modern glass
+                UI, fully responsive layout, and advanced vanilla front-end interactions.
+              </p>
+              <ul class="tag-row" aria-label="Technologies used">
+                <li class="tag-row__item">HTML5</li>
+                <li class="tag-row__item">CSS3</li>
+                <li class="tag-row__item">JavaScript</li>
+              </ul>
+            </div>
+            <div class="project-card__actions">
+              <span class="btn btn--sm btn--ghost btn--disabled" aria-disabled="true">Coming Soon</span>
+              <a href="https://github.com/yawarmushtaq33" class="btn btn--sm btn--ghost" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION / EXPERIENCE (Timeline) ============ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">04 — Education &amp; Experience</p>
+        <h2 class="section-title reveal">Where I've studied and worked.</h2>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <p class="timeline__meta">2028 (Expected) · Wah Campus</p>
+              <h3 class="timeline__title">BS Computer Science</h3>
+              <p class="timeline__sub">COMSATS University Islamabad — 5th Semester</p>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <p class="timeline__meta">Remote</p>
+              <h3 class="timeline__title">Web Development Intern</h3>
+              <p class="timeline__sub">CloudExify</p>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <div class="timeline__node" aria-hidden="true"></div>
+            <div class="timeline__card glass">
+              <p class="timeline__meta">Faisalabad</p>
+              <h3 class="timeline__title">FSc Pre-Medical</h3>
+              <p class="timeline__sub">Divisional Public School (DPS)</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">05 — Achievements</p>
+        <h2 class="section-title reveal">Beyond the code.</h2>
+
+        <div class="achievement-grid">
+          <div class="achievement-card glass reveal">
+            <p class="achievement-card__icon" aria-hidden="true">☁️</p>
+            <h3 class="achievement-card__title">CloudExify Intern</h3>
+            <p class="achievement-card__text">Selected for the Web Development Internship program.</p>
+          </div>
+          <div class="achievement-card glass reveal">
+            <p class="achievement-card__icon" aria-hidden="true">⚽</p>
+            <h3 class="achievement-card__title">Sports Society Coordinator</h3>
+            <p class="achievement-card__text">Organized and supervised university-level sports events at COMSATS.</p>
+          </div>
+          <div class="achievement-card glass reveal">
+            <p class="achievement-card__icon" aria-hidden="true">🛡️</p>
+            <h3 class="achievement-card__title">Heritage Society — Security Co-Head</h3>
+            <p class="achievement-card__text">Led crowd management and logistics for university cultural programs.</p>
+          </div>
+          <div class="achievement-card glass reveal">
+            <p class="achievement-card__icon" aria-hidden="true">🎯</p>
+            <h3 class="achievement-card__title">Continuous Learner</h3>
+            <p class="achievement-card__text">Constantly expanding skills across web, mobile, and problem solving.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <p class="section-eyebrow reveal">06 — Contact</p>
+        <h2 class="section-title reveal">Let's work together.</h2>
+        <p class="section-text reveal">Open to Web Development, Mobile App, and Software Engineering opportunities — on-site or remote.</p>
+
+        <div class="contact-grid">
+          <a class="contact-card glass reveal" href="https://github.com/yawarmushtaq33" target="_blank" rel="noopener">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg><use href="#icon-github" xlink:href="#icon-github"></use></svg>
+            </span>
+            <span class="contact-card__label">GitHub</span>
+            <span class="contact-card__value">yawarmushtaq33</span>
+          </a>
+
+          <a class="contact-card glass reveal" href="https://www.linkedin.com/in/yawar-mushtaq-2865573a6" target="_blank" rel="noopener">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg><use href="#icon-linkedin" xlink:href="#icon-linkedin"></use></svg>
+            </span>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">yawar-mushtaq</span>
+          </a>
+
+          <a class="contact-card glass reveal" href="https://instagram.com/yawar_mushtaq33" target="_blank" rel="noopener">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
+            </span>
+            <span class="contact-card__label">Instagram</span>
+            <span class="contact-card__value">@yawar_mushtaq33</span>
+          </a>
+
+          <a class="contact-card glass reveal" href="mailto:yawarmushtaq383@gmail.com">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg><use href="#icon-email" xlink:href="#icon-email"></use></svg>
+            </span>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">yawarmushtaq383@gmail.com</span>
+          </a>
+
+          <a class="contact-card glass reveal" href="tel:+923280430150">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg><use href="#icon-phone" xlink:href="#icon-phone"></use></svg>
+            </span>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">0328-0430150</span>
+          </a>
+        </div>
+
+        <div class="contact-form-wrapper glass reveal">
+          <h3 class="contact-form__title">Or send a message directly</h3>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-field">
+              <label for="cfName">Name</label>
+              <input type="text" id="cfName" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="cfEmail">Email</label>
+              <input type="email" id="cfEmail" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="cfMessage">Message</label>
+              <textarea id="cfMessage" name="message" rows="4" required></textarea>
+            </div>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <button type="submit" class="btn btn--primary form-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">Yawar Mushtaq</p>
+      <ul class="footer__socials" aria-label="Social links">
+        <li><a href="https://github.com/yawarmushtaq33" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg><use href="#icon-github" xlink:href="#icon-github"></use></svg>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/yawar-mushtaq-2865573a6" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg><use href="#icon-linkedin" xlink:href="#icon-linkedin"></use></svg>
+        </a></li>
+        <li><a href="https://instagram.com/yawar_mushtaq33" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg><use href="#icon-instagram" xlink:href="#icon-instagram"></use></svg>
+        </a></li>
+      </ul>
+      <p class="footer__meta">&copy; <span id="year"></span> Yawar Mushtaq. Built for CloudExify.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll back to top">↑</button>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
